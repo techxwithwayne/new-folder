@@ -54,3 +54,42 @@ if(isset($_POST['submit']))
 }
 
 ?>
+
+
+
+
+
+
+
+
+
+
+<?php  
+//session_start();
+//require "connection.php";
+
+
+	//$firstname = mysqli_real_escape_string($con, ucwords(strtolower($_POST["fname"])));
+
+
+//	if (!empty($firstname)&&!empty($lastname)&&!empty($mobile)&&!empty($pwd)&&!empty($pwd_confirm)&&!empty($terms)) {
+			
+//			if ($add_user_account && $add_employee_info) {
+//			echo '<script>window.location.href="add_employee.php?msg=add-user-scc"</script>';
+//			}
+//	}
+
+//Sign in
+// if (isset($_POST["login_user"])) {
+//	$email_address = mysqli_real_escape_string($con, $_POST["email"]);
+//	$user_password = mysqli_real_escape_string($con, $_POST["password"]);
+//	$password_encry = md5($user_password);
+//	if (!empty($email_address)&&!empty($user_password)) {
+//		$auth_user_account = mysqli_query($con, "SELECT * FROM registration WHERE user_email='$email_address' AND user_pwd='$password_encry'");
+//		if (mysqli_num_rows($auth_user_account)>0) {
+//			$row_user_auth = mysqli_fetch_assoc($auth_user_account);
+//			$login_id = uniqid();
+//			$add_login = mysqli_query($con, "INSERT INTO logins_activity(user_email, user_autoid, user_login) VALUES ('$email_address', '$login_id', CURRENT_TIMESTAMP)");
+//	}}}
+
+?>
